@@ -1,0 +1,184 @@
+/*--------------------
+  Base Element Styles
+  ====================*/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.0;
+    color: #9e9e9e;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  h3 {
+
+  }
+
+  /*--------------------
+    Base Element Styles
+    ====================*/
+
+/* -- Navigation -- */
+
+.main-header {
+      width: 100%;
+      font-weight: bold;
+      top: 0;
+      background: #f9f9f9;
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
+
+.main-nav {
+      display: block;
+      margin: 10px 15px;
+    }
+
+.name,
+.main-nav a {
+      display: block;
+      text-align: center;
+      padding: 10px 15px;
+      color: #606060;
+    }
+
+.main-nav a {
+      font-size: 1.1em;
+      margin-top: 15px;
+      background: #ffffff;
+    }
+
+.name{
+      margin-top: 10px;
+    }
+
+  .main-footer {
+    width: 100%;
+    font-weight: bold;
+    top: 0;
+    background: #f9f9f9;
+    padding-top: 10px;
+    margin: 0 auto;
+    }
+
+/* -- Element Styles -- */
+
+
+.profile-image {
+      display: block;
+      margin: 40px auto;
+      width: 275px;
+    }
+
+.introchar {
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+    font-size: 18px;
+    line-height: 1.6;
+      }
+
+.port-contact {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    margin: 0 auto;
+    color: #606060;
+
+}
+
+.page-name {
+  border: 3px solid red;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 0 auto;
+  color: #606060;
+}
+
+.page-description {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  width: 85%;
+  padding-top: 10px;
+  margin: 0 auto;
+  color: #606060;
+  }
+
+  .last-page {
+    padding-bottom: 80px;
+  }
+
+  .contact {
+
+  }
+
+.lastcomment {
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 40px;
+  }
+
+ .phemail {
+   font-weight: lighter;
+   padding-top: 10px;
+   text-align: center;
+ }
+
+ .nemail {
+   font-weight: bold;
+ }
+
+ .botline {
+   width: 85%;
+   border-top: 2px solid lightgray;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 25px 0;
+   margin: 20px auto 0;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .botline a {
+   color: #606060;
+ }
+
+
+    /* -- Containers -- */
+
+.marketing-page {
+  display: block;
+  margin: 40px auto;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+    .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
