@@ -165,6 +165,10 @@
   width: 300px;
 }
 
+.foot-nav {
+  display: none;
+}
+
 #markpage {
   padding-top: 0;
 }
@@ -235,6 +239,15 @@
 
   .container {
     width: 45%;
+  }
+
+  .foot-nav {
+    display: block; 
+  }
+
+  #back-to-top
+  {
+    display: none;
   }
 
 }
